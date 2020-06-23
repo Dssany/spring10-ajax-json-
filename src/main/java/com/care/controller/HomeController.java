@@ -71,4 +71,9 @@ public class HomeController {
 		return "ajax_json";
 	}
 	
+	@GetMapping("rest01")
+	public String rest() {
+		return "rest01";
+	}
+	
 }
