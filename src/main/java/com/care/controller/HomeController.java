@@ -76,4 +76,9 @@ public class HomeController {
 		return "rest01";
 	}
 	
+	@RequestMapping("getuser")
+	public String getuser() {
+		return "getuser";
+	}
+	
 }
